@@ -2,7 +2,7 @@
 apiVersion: aws.crossplane.io/v1beta1
 kind: ProviderConfig
 metadata:
-  name: provider-config
+  name: default
   annotations:
     argocd.argoproj.io/sync-wave: "50"
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
