@@ -3,4 +3,4 @@ kind: Provider
 metadata:
   name: crossplane-provider-aws
 spec:
-  package: "public.ecr.aws/a2p5o7w4/marx-ecr:v1.1"
+  package: "public.ecr.aws/awsvijisarathy/crossplane-provider-aws:v0.17.0"
