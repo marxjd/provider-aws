@@ -6,7 +6,7 @@ metadata:
   annotations:
     uptest.upbound.io/post-assert-hook: testhooks/delete-release.sh
 spec:
-  id: platform-ref-aws
+  id: upbound-ref-cluster-1
   parameters:
     nodes:
       count: 1
