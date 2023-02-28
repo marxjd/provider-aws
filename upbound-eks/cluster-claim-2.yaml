@@ -1,12 +1,12 @@
 apiVersion: aws.platformref.upbound.io/v1alpha1
 kind: Cluster
 metadata:
-  name: platform-ref-aws
+  name: platform-ref-aws-2
   namespace: default
   annotations:
     uptest.upbound.io/post-assert-hook: testhooks/delete-release.sh
 spec:
-  id: platform-ref-aws
+  id: platform-ref-aws-2
   parameters:
     nodes:
       count: 1
@@ -16,4 +16,4 @@ spec:
         prometheus:
           version: "34.5.1"
   writeConnectionSecretToRef:
-    name: platform-ref-aws-kubeconfig
+    name: platform-ref-aws-kubeconfig-2
