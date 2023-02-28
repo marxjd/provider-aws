@@ -16,4 +16,4 @@ spec:
         prometheus:
           version: "34.5.1"
   writeConnectionSecretToRef:
-    name: upbound-ref-kubeconfig
+    name: upbound-ref-kubeconfig-1
