@@ -6,8 +6,6 @@ metadata:
   annotations:
     uptest.upbound.io/post-assert-hook: testhooks/delete-release.sh
 spec:
-  forProvider:
-    region: us-west-2
   id: platform-ref-aws-2
   parameters:
     nodes:
